@@ -1,0 +1,21 @@
+.slide-in-enter {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-in-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+}
+
+.slide-in-appear {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-in-appear-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+}
